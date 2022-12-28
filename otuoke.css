@@ -1,0 +1,150 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family: arial, helvetica, sans-serif;
+	font-weight: bolder;
+}
+
+* {
+	font-weight: bolder;
+	box-sizing: border-box;
+}
+
+.nav-bar {
+	width: 100%;
+	height: 100px;
+	background-color: green;
+	position: fixed;
+	z-index: 1;
+}
+
+img {
+	height: 90px;
+	width: 95px;
+	border-radius: 50%;
+	margin-left: 10%;
+}
+
+#head {
+	color: white;
+	font-size: 400%;
+	margin-top: 10px;
+	margin-left: 5%;
+	position: absolute;
+	display: flexbox;
+	vertical-align: top;
+}
+
+.list {
+	width: 70%;
+	margin-left: 200px;
+	margin-top: 150px;
+	padding-bottom: 50px;
+	position: absolute;
+}
+
+table tr {
+	text-align: right;
+}
+
+#row1 {
+	width: 5%;
+}
+
+#row1b {
+	width: 65%;
+	height: 20px;
+	font-weight: bolder;
+	font-size: 15px;
+}
+
+.mid {
+	text-align: center;
+}
+
+.sec {
+	width: 334px;
+	vertical-align: bottom;
+	font-weight: bolder;
+}
+
+#emp {
+	width: 20%;
+}
+
+#sec {
+	height: 30px;
+}
+
+#next {
+	font-weight: bolder;
+	vertical-align: bottom;
+	text-align: center;
+}
+
+#l-col {
+	width: 100px;
+	height: 50px;
+}
+
+.row4 {
+	text-align: center;
+	font-weight: bolder;
+}
+
+.s-col {
+	text-align: left;
+	padding-top: 10px;
+}
+
+#acc {
+	text-align: center;
+	font-weight: bolder;
+}
+
+.e-row {
+	background-color: darkblue;
+}
+
+.end {
+	font-weight: bolder;
+	text-align: center;
+}
+
+.total {
+	font-weight: bolder;
+}
+
+@media only screen and (max-width: 600px) {
+
+	#head {
+		font-size: 170%;
+		margin-top: 30px;
+		margin-left: 10px;
+	}
+
+	.nav-bar {
+		width: 135%;
+		position: fixed;
+		z-index: 1;
+
+	}
+
+	.list {
+		width: 100%;
+		position: absolute;
+		margin-top: 150px;
+		margin-left: 0px;
+	}
+
+	#row1b {
+		width: 5%;
+	}
+
+	img {
+		margin-top: 10px;
+		margin-left: 50px;
+		width: 85px;
+		height: 80px;
+	}
+}
